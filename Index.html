@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ID Card Generator</title>
+    </head>
+    <body>
+     <link rel="stylesheet" href="Style.css">
+     <h1>ID Card Generator</h1>
+     <section>
+         <div>
+          <input type="text" id="firstName" placeholder="First Name">
+         </div>
+         <br>
+         <div>
+           <input type="text" id="lastName" placeholder="Last Name">
+         </div>
+         <br>
+         <div>
+             <input type="text" id="Age" placeholder="Age">
+         </div>
+         <br>
+         <div>
+             <input id="PhoneNumber" placeholder="PhoneNumber">
+         </div>
+         <br>
+         <div>
+           <input type="text" id="Address" placeholder="Address">
+         </div>
+         <br>
+         <div>
+          <button onclick="generateID()">Generate ID</button>
+         </div>
+     </section>
+         <div id="idCard">ID Card
+             <div> First Name: <span id="firstNameCard"></span></div>
+             <div> Last Name: <span id="lastNameCard"></span></div>
+             <div> Age: <span id="AgeCard"></span></div>
+             <div> Phone Number: <span id="PhoneNumberCard"></span></div>
+             <div> Address: <span id="AddressCard"></span></div>
+         </div>
+
+         <script src="app.js"></script>
+
+    </body>
+</html>
